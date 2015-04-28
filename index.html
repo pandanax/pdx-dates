@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pdx-dates</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="app/modules/module.js"></script>
+    <script src="app/modules/controllers.js"></script>
+    <script src="app/modules/routes.js"></script>
+    <script type="text/javascript">
+        angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));
+    </script>
+</head>
+<body ng-app="pdxDates">
+<div >
+
+    <div ng-view></div>
+
+</div>
+</body>
+</html>
